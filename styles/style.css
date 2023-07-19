@@ -48,3 +48,23 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+
+.sign-in{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background-color: #F948B2;
+}
+.go-rogue{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background-color: #4EC5F7;
+}
+.goat-div{
+    display: flex;
+}
