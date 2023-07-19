@@ -112,8 +112,36 @@ background: #0B0223;
     justify-content: center;
 }
 
-.footer-para{
-    display: inline-flex;
+.footer-text{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 10px;
 
     
+}
+.icon-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 10px;
+}
+.text-content-footer{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+    
+    
+}
+.end{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
