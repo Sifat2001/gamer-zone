@@ -7,7 +7,10 @@ font-family: 'Work Sans', sans-serif;
 }
 
 /* header section */
-
+.header-main{
+    display: flex;
+    justify-content: space-between;
+}
 .header-icon{
    
    background: #FFF;
@@ -28,13 +31,32 @@ h2{
     font-size: 48px;
     font-weight: 700;
 }
-.nav>ul{
-    display: flex;
-    justify-content: space-between;
+/* nav */
+.border-nav{
+   
+width: 262px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
 }
-nav>li{
+nav {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 900px;
 }
+nav>ul{
+    display: flex;
+    text-align: center;
+    justify-self: left;
+    gap: 30px;
+    text-decoration: none;
+}
+nav li{
+    margin-right: 50px;
+}
+
 
 
 
@@ -92,12 +114,21 @@ height: 700px;
     gap: 20px;
 }
 
+
 .game-section{
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    
 }
 .game-content{
     
     display: flex;
+    justify-content: space-between;
+}
+.small-game{
+    
+width: 318.5px;
+height: 365.083px;
 }
 /* footer section */
 
@@ -136,7 +167,7 @@ background: #0B0223;
     justify-content: center;
     gap: 50px;
     padding: 10px;
-    
+
     
 }
 .end{
@@ -145,3 +176,4 @@ background: #0B0223;
     align-items: center;
     justify-content: center;
 }
+
