@@ -9,8 +9,7 @@ font-family: 'Work Sans', sans-serif;
 /* header section */
 
 .header-icon{
-   width: 1920px;
-   height: 130px; 
+   
    background: #FFF;
 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
@@ -21,7 +20,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     display: flex;
 }
 h2{
-    font-size: 54px;
+    font-size: 48px;
     font-weight: 700;
 }
 .nav>ul{
@@ -37,8 +36,13 @@ nav>li{
 /* main section */
 .goat{
  width: 1920px;
-height: 5927px;;
+
 background: #FFF;
+}
+.goat-div{
+    margin-top: 70px;
+    
+    text-align: center;
 }
 h1{
     font-weight: 600;
@@ -78,4 +82,15 @@ height: 700px;
    
 .online-game{
     text-align: center;
+}
+.online-img{
+    gap: 20px;
+}
+
+.game-section{
+    justify-content: center;
+}
+.game-content{
+    
+    display: flex;
 }
