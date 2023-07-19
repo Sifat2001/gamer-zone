@@ -44,7 +44,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 900px;
+    margin: 0 600px;
 }
 nav>ul{
     display: flex;
@@ -130,6 +130,29 @@ height: 700px;
 width: 318.5px;
 height: 365.083px;
 }
+.section-btn{
+    width: 1920px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 50px;
+    padding: 10px;
+}
+
+.btn-1{
+    text-align: center;
+    border-radius: 50px;
+    background: #FFF;
+    
+}
+.btn-2{
+    text-align: center;
+    border-radius: 50px;
+background: #FFF;
+}
+
 /* footer section */
 
 .footer{
