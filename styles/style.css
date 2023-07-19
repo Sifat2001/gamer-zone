@@ -1,0 +1,50 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Work+Sans:wght@500;600;700&display=swap');
+*{
+    
+font-family: 'Work Sans', sans-serif;
+}
+
+/* header section */
+
+.header-icon{
+   width: 1920px;
+   height: 130px; 
+   background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.text-color{
+    color: #F948B2;
+}
+.icon{
+    display: flex;
+}
+h2{
+    font-size: 54px;
+    font-weight: 700;
+}
+.nav>ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav>li{
+    display: flex;
+}
+
+
+
+/* main section */
+.goat{
+ width: 1920px;
+height: 5927px;;
+background: #FFF;
+}
+h1{
+    font-weight: 600;
+}
+.text-goat{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
